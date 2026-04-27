@@ -142,7 +142,7 @@
 
     <div class="app-badge">Dosed AI</div>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective date: April 4, 2026 &nbsp;·&nbsp; dosedai.app/privacy</p>
+    <p class="meta">Effective date: April 26, 2026 &nbsp;·&nbsp; dosedai.app/privacy</p>
 
     <div class="disclaimer-box">
       <strong>Health Data Notice.</strong> Dosed AI handles sensitive health information you provide voluntarily. This policy explains exactly what we collect, why, and how it is stored and shared. Please read it carefully.
@@ -150,7 +150,7 @@
 
     <!-- 1 -->
     <h2>1. Who We Are</h2>
-    <p>Dosed AI ("we," "us," or "our") operates the Dosed AI mobile application and website at dosedai.app. If you have questions about this Privacy Policy, contact us at <a href="mailto:support@dosedai.app">support@dosedai.app</a>.</p>
+    <p>Dosed AI ("we," "us," or "our") is operated by Samuel Chu, sole proprietor, located at 7201 Rampart Lane, La Palma, CA 90623, United States. We operate the Dosed AI mobile application and website at dosedai.app. If you have questions about this Privacy Policy, contact us at <a href="mailto:doseaiapp@gmail.com">doseaiapp@gmail.com</a> or (657) 385-3754.</p>
 
     <!-- 2 -->
     <h2>2. Who This Policy Applies To</h2>
@@ -209,7 +209,6 @@
       <li>Device type and operating system version</li>
       <li>App version</li>
       <li>Crash reports and error logs</li>
-      <li>Usage analytics (feature interactions, session duration)</li>
     </ul>
 
     <!-- 4 -->
@@ -217,12 +216,11 @@
     <ul>
       <li><strong>To provide the service:</strong> Account creation, authentication, and personalized AI plan generation</li>
       <li><strong>To generate AI plans:</strong> Your survey answers and health profile are sent to our AI providers (see Section 5) to produce peptide recommendations</li>
-      <li><strong>To improve the app:</strong> Aggregated, anonymized usage data helps us understand how features are used</li>
       <li><strong>To manage subscriptions:</strong> Verifying entitlements and processing renewals</li>
       <li><strong>To communicate with you:</strong> Transactional emails (account confirmation, support responses)</li>
       <li><strong>To comply with law:</strong> Responding to lawful requests from regulatory or law enforcement authorities</li>
     </ul>
-    <p>We do <strong>not</strong> sell your personal data. We do not use your data to train AI models without your explicit consent.</p>
+    <p>We do <strong>not</strong> sell your personal data. Dosed AI does not train its own AI models on your data. With respect to our third-party AI providers (see Section 5.3), OpenAI does not use API inputs to train its models under their standard API terms. Google Gemini's data handling is governed by the API terms applicable to our key tier; we do not opt in to data sharing for training where that option exists. Dosed AI does not track you across other companies' apps or websites, and we do not use the Apple Advertising Identifier (IDFA).</p>
 
     <!-- 5 -->
     <h2>5. Third-Party Services</h2>
@@ -233,12 +231,23 @@
     <h3>5.2 RevenueCat (Subscription &amp; Payments)</h3>
     <p>Subscription management and in-app purchase processing is handled by RevenueCat. RevenueCat receives your device identifier and subscription status to verify entitlements. We do not share your health data with RevenueCat. RevenueCat's privacy policy is at <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.</p>
 
-    <h3>5.3 OpenAI and/or Google (AI Plan Generation)</h3>
-    <p>To generate personalized peptide plans, your survey answers and health profile are transmitted to one or more AI providers (currently OpenAI and/or Google). This data is sent over encrypted connections and used solely to generate your plan. We do not authorize these providers to use your data for model training. See:</p>
+    <h3>5.3 OpenAI and Google (AI Plan Generation)</h3>
+    <p>To generate personalized peptide plans and power the AI chat assistant, your survey answers and health profile are transmitted to third-party AI services. Our primary provider is <strong>OpenAI</strong> (GPT-4o-mini model); <strong>Google Gemini</strong> (1.5 Pro model) is used as a fallback when OpenAI is unavailable. This data is sent over encrypted connections and used solely to generate your plan or chat response. OpenAI does not use API inputs to train its models under their standard API terms. Google Gemini's data handling is governed by the API terms applicable to our key tier; we do not opt in to data sharing for training where that option exists. See:</p>
     <ul>
       <li><a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI Privacy Policy</a></li>
       <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
     </ul>
+
+    <h3>5.4 Sentry (Error Monitoring)</h3>
+    <p>We use Sentry for crash reporting, error monitoring, and performance tracing. Sentry receives crash data, error logs, performance metrics, and device/browser metadata when errors occur. Session replay data may be captured during error sessions to help us diagnose issues; all text content in replays is masked to protect your privacy. Sentry does not receive your health data, injection logs, or survey answers. Sentry's privacy policy is available at <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">sentry.io/privacy</a>.</p>
+
+    <h3>5.5 On-Device Storage</h3>
+    <p>Certain data — including your AI-generated plan, survey answers, theme preference, and notification settings — may be cached locally on your device for offline access and performance. This data is stored in your browser's local storage or the device's native preferences and is not transmitted to any third party. You can clear this data by deleting your account or reinstalling the app.</p>
+
+    <h3>5.6 Local Notifications</h3>
+    <p>If you enable injection reminders, Dosed AI uses your device's local notification system (Apple's iOS notification service) to display scheduled reminders. Notification content is generic ("Time for your scheduled dose") and does not include peptide names, doses, or other health information on the lock screen. Reminders are scheduled and delivered entirely on-device — the contents of your notifications are not transmitted to our servers or to any third party. You can disable reminders at any time through the app's Settings or your device's system Settings.</p>
+
+    <p style="margin-top: 24px;"><strong>Data protection commitment:</strong> Each of our third-party service providers is contractually required to provide the same or equivalent level of protection for your personal data as described in this Privacy Policy.</p>
 
     <!-- 6 -->
     <h2>6. Data Retention</h2>
@@ -254,13 +263,13 @@
     <p>Depending on your jurisdiction, you have the following rights regarding your personal data:</p>
 
     <h3>7.1 Access</h3>
-    <p>You can request a copy of the personal data we hold about you by contacting <a href="mailto:support@dosedai.app">support@dosedai.app</a>.</p>
+    <p>You can request a copy of the personal data we hold about you by contacting <a href="mailto:doseaiapp@gmail.com">doseaiapp@gmail.com</a>.</p>
 
     <h3>7.2 Export</h3>
     <p>You can request an export of your injection logs and health profile in CSV format. We will respond to export requests within 30 days.</p>
 
     <h3>7.3 Deletion</h3>
-    <p>You can request deletion of your account and all associated personal data. Submit a deletion request through the app settings or by emailing <a href="mailto:support@dosedai.app">support@dosedai.app</a>.</p>
+    <p>You can request deletion of your account and all associated personal data. Submit a deletion request through the app settings or by emailing <a href="mailto:doseaiapp@gmail.com">doseaiapp@gmail.com</a>.</p>
 
     <h3>7.4 Correction</h3>
     <p>You can update or correct your health profile and account information at any time within the app.</p>
@@ -277,7 +286,7 @@
       <li><strong>International transfers:</strong> Your data may be transferred to and processed in the United States and other countries where our service providers operate. We rely on standard contractual clauses or equivalent mechanisms for such transfers</li>
       <li><strong>Right to lodge a complaint:</strong> You have the right to lodge a complaint with your local data protection authority</li>
     </ul>
-    <p>To exercise your GDPR rights, contact us at <a href="mailto:support@dosedai.app">support@dosedai.app</a>.</p>
+    <p>To exercise your GDPR rights, contact us at <a href="mailto:doseaiapp@gmail.com">doseaiapp@gmail.com</a>.</p>
 
     <!-- 9 -->
     <h2>9. CCPA — California Residents</h2>
@@ -288,7 +297,7 @@
       <li><strong>Right to Opt-Out:</strong> We do not sell personal information. You do not need to opt out</li>
       <li><strong>Right to Non-Discrimination:</strong> We will not discriminate against you for exercising your rights</li>
     </ul>
-    <p>To exercise these rights, contact <a href="mailto:support@dosedai.app">support@dosedai.app</a>. We will respond within 45 days of a verifiable request.</p>
+    <p>To exercise these rights, contact <a href="mailto:doseaiapp@gmail.com">doseaiapp@gmail.com</a>. We will respond within 45 days of a verifiable request.</p>
 
     <!-- 10 -->
     <h2>10. Security</h2>
@@ -302,7 +311,7 @@
 
     <!-- 11 -->
     <h2>11. Children's Privacy</h2>
-    <p>Dosed AI is not intended for use by anyone under the age of 18. We do not knowingly collect personal information from minors. If you are a parent or guardian and believe your child has provided us with personal information, contact us at <a href="mailto:support@dosedai.app">support@dosedai.app</a> and we will delete that information promptly.</p>
+    <p>Dosed AI is not intended for use by anyone under the age of 18. We do not knowingly collect personal information from minors. If you are a parent or guardian and believe your child has provided us with personal information, contact us at <a href="mailto:doseaiapp@gmail.com">doseaiapp@gmail.com</a> and we will delete that information promptly.</p>
 
     <!-- 12 -->
     <h2>12. Changes to This Policy</h2>
@@ -312,7 +321,7 @@
     <h2>13. Contact Us</h2>
     <div class="contact-box">
       <strong>Dosed AI — Privacy Inquiries</strong>
-      Email: <a href="mailto:support@dosedai.app">support@dosedai.app</a><br/>
+      Email: <a href="mailto:doseaiapp@gmail.com">doseaiapp@gmail.com</a><br/>
       Website: <a href="https://dosedai.app">dosedai.app</a>
     </div>
 
